@@ -1,5 +1,7 @@
 package Mine;
 
+import java.util.List;
+
 public class BeansExample1 {
 	private int id;
 	private String name;
@@ -15,10 +17,25 @@ public class BeansExample1 {
 	public void setName(String name) {
 		this.name = name;
 	}
+private String[] Array;
+public String[] getArray() {
+		return Array;
+	}
+public void setArray(String[] array) {
+		Array = array;
+	}
+public List<String> A;
+public List<String> getA() {
+		return A;
+	}
+	public void setA(List<String> a) {
+		A = a;
+	}
+	}
 
 
 
-}
+
 	
 
 
